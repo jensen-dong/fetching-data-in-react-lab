@@ -103,6 +103,10 @@ button:focus-visible {
   align-items: center;
 }
 
+.ship-count {
+  text-align: center;
+}
+
 .search-bar form input {
   margin-left: 10px;
 }
