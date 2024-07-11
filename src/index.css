@@ -103,6 +103,10 @@ button:focus-visible {
   align-items: center;
 }
 
+.search-bar form input {
+  margin-left: 10px;
+}
+
 .search-bar form button {
   margin-left: 10px;
 }
