@@ -11,7 +11,6 @@ const StarshipSearch = (props) => {
 
   return (
     <section className="search-bar">
-      <h2>Search</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="starship">Enter a starship:</label>
         <input

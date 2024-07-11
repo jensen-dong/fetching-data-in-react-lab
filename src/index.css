@@ -102,3 +102,7 @@ button:focus-visible {
   justify-content: center;
   align-items: center;
 }
+
+.search-bar form button {
+  margin-left: 10px;
+}
