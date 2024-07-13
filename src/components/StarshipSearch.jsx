@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Button } from "react-bootstrap";
 
 const StarshipSearch = (props) => {
   const [starship, setStarship] = useState("");
@@ -19,7 +20,7 @@ const StarshipSearch = (props) => {
           value={starship}
           onChange={(e) => setStarship(e.target.value)}
         />
-        <button type="submit">Search</button>
+        <Button variant="primary" type="submit">Search</Button>
       </form>
     </section>
   );

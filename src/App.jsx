@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import * as starshipService from "./services/starshipService";
 import StarshipSearch from "./components/StarshipSearch";
 import StarshipList from "./components/StarshipList";
-/* import './App.css' */
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css'
 
 const App = () => {
   const [starships, setStarships] = useState([]);
